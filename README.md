@@ -21,17 +21,19 @@ O projeto segue o padrão MVC (Model-View-Controller), separando as responsabili
 A metodologia adotada para o desenvolvimento será baseada no modelo incremental, permitindo evolução contínua do sistema e entregas em ciclos curtos.
 
 ## 2.2. Atividades e Responsáveis
-| Atividade | Descrição | Responsável | Prazo |
-|-----------|-------------|-------------|--------|
-| Levantamento de Requisitos | Identificação dos requisitos funcionais e não-funcionais | Analista de Requisitos | 1 semana |
-| Especificação de Requisitos | Criação do documento de requisitos detalhado | Analista de Requisitos | 1 semana |
-| Projeto Arquitetural | Definição da arquitetura, incluindo diagramas UML | Arquiteto de Software | 1 semana |
-| Implementação Inicial | Desenvolvimento do sistema com funcionalidades básicas | Desenvolvedor | 2 semanas |
-| Testes Unitários | Desenvolvimento e execução de testes automatizados | Engenheiro de Testes | 1 semana |
-| Revisão e Ajustes | Correção de falhas e melhorias no sistema | Equipe de Desenvolvimento | 1 semana |
-| Entrega e Documentação | Finalização do sistema e entrega com documentação | Gerente de Projeto | 1 semana |
+| Atividade                                           | Descrição                                                                                     | Responsável               | Prazo     |
+|-----------------------------------------------------|-----------------------------------------------------------------------------------------------|---------------------------|-----------|
+| Sprint 1: Levantamento de especificações do projeto | Definição de modelo do processo e responsáveis pelas atividades.                              | Analista de Requisitos    | 1 semana  |
+| Sprint 1: Preparação do documento de especificações | Criação do documento que tratará das especificações e informações adicionais sobre o projeto. | Analista de Requisitos    | 1 semana  |
+| Sprint 2: Levantamento de Requisitos                | Identificação dos requisitos funcionais e não-funcionais                                      | Analista de Requisitos    | 1 semana  |
+| Sprint 2: Especificação de Requisitos               | Criação do documento de requisitos detalhado                                                  | Analista de Requisitos    | 1 semana  |
+| Sprint 2: Projeto Arquitetural                      | Definição da arquitetura, incluindo diagramas UML                                             | Arquiteto de Software     | 1 semana  |
+| Sprint 3: Implementação Inicial                     | Desenvolvimento do sistema com funcionalidades básicas                                        | Desenvolvedor             | 2 semanas |
+| Sprint 3: Testes Unitários                          | Desenvolvimento e execução de testes automatizados                                            | Engenheiro de Testes      | 1 semana  |
+| Sprint 3: Revisão e Ajustes                         | Correção de falhas e melhorias no sistema                                                     | Equipe de Desenvolvimento | 1 semana  |
+| Sprint 3: Entrega e Documentação                    | Finalização do sistema e entrega com documentação                                             | Gerente de Projeto        | 1 semana  |
 
-Tempo total estimado: **8 semanas**
+Tempo total estimado: **10 semanas**
 
 ---
 
@@ -98,10 +100,10 @@ Tempo total estimado: **8 semanas**
 # 5. Projeto Arquitetural
 
 ## 5.1. Diagrama de Classes
-O diagrama de classes representará as entidades do sistema e seus relacionamentos, incluindo as classes `Vacina`, `CatalogoVacinas` e `GerenciadorVacinasGUI`.
+![](src/main/resources/images/classes.jpg)
 
 ## 5.2. Diagrama de Componentes
-Este diagrama mostrará os principais componentes do sistema e suas interações, incluindo o módulo de interface gráfica, o catálogo de vacinas e o banco de dados.
+![](src/main/resources/images/componentes.jpg)
 
 ## 5.3. Diagrama de Sequência
-O diagrama de sequência ilustrará o fluxo de mensagens entre os objetos durante as operações de adicionar, listar e remover vacinas.
+![](src/main/resources/images/sequencia.jpg)
